@@ -1,0 +1,71 @@
+body{
+    font-family: var(--mainfont);
+}
+.header {
+    padding: 20px 0;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header .logo {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.header .logo a {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--maincolor);
+}
+
+.header .logo img {
+    width: 35px;
+}
+
+.header .nav ul {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+
+}
+.active{
+    font-weight: 900;
+}
+.header .nav ul a {
+    color: #101928;
+    font-size: 19px;
+    font-family: var(--mainfont);
+    transition: .5s;
+}
+.header .nav ul a:hover{
+    font-weight: 900;
+}
+
+.header .auth form {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.header .auth .btnLogin {
+    padding: 6px 29px;
+    border: 3px solid var(--maincolor);
+    border-radius: 9px;
+    color: var(--maincolor);
+    background-color: white;
+    font-family: var(--secondfont);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header .auth .Register {
+    padding: 6px 28px;
+    border: 3px solid var(--maincolor);
+    border-radius: 9px;
+    color: white;
+    background-color: var(--maincolor);
+    font-family: var(--secondfont);
+    font-size: 16px;
+    font-weight: 700;
+}
