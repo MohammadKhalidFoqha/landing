@@ -26,7 +26,7 @@ body{
     width: 35px;
 }
 
-.header .nav ul {
+.header .navbar ul {
     display: flex;
     align-items: center;
     gap: 17px;
@@ -36,13 +36,13 @@ body{
 .active{
     font-weight: 900;
 }
-.header .nav ul a {
+.header .navbar ul a {
     color: #101928;
     font-size: 19px;
     font-family: var(--mainfont);
     transition: .5s;
 }
-.header .nav ul a:hover{
+.header .navbar ul a:hover{
     font-weight: 900;
 }
 
@@ -76,7 +76,7 @@ body{
 }
 
 @media screen and (max-width:1027px){
-    .nav,
+    .navbar,
     .auth{
         display: none;
     }
@@ -97,4 +97,73 @@ body{
          font-size: 15px;
     font-weight: 400;
     }
+}
+.footer{
+    background-color: #393E46;
+    color: white;
+}
+.footer a{
+    color: white;
+}
+.footer .row{
+    flex-wrap: nowrap;
+}
+.footer-start{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:20px;
+}
+
+.footer .logo {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer .logo a {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.footer .logo img {
+    width: 35px;
+}
+
+
+.footer-start .icons img{
+border: 1px solid white;
+padding: 10px;
+width: 35px;
+height: 35px;
+}
+.footer-start .icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+
+}
+
+.footer-end{
+    padding: 80px 0;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+text-align: center;
+
+}
+.footer-end h2{
+    margin-bottom: 20px;
+}
+.footer-end .footer-item nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
 }
