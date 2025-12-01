@@ -161,6 +161,21 @@ gap: 9px;
     height: 18px;
 }
 
+@media screen and (max-width:475px) {
+    .testimonial{
+        width: 100%;
+    }
+    .testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+    .testimonials h3 {
+    
+    
+    font-size: 16px;
+}
+}
 
 .footer {
     background-color: #393E46;
