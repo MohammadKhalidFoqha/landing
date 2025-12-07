@@ -131,6 +131,7 @@ body {
 .hero .hero-start{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
     font-family: var(--mainfont);
 }
@@ -142,10 +143,12 @@ body {
 .hero .hero-start .hero-action{
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
     font-family: var(--secondfont);
 }
 .hero .hero-start .hero-action .play-video{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     align-items: center;
 }
@@ -193,6 +196,72 @@ width: fit-content;
 .hero .hero-end img {
 width: 400px;
 }
+@media screen and (max-width:1000px) {
+    .hero .hero-end img{
+        width: 300px;
+    }
+    .hero .hero-start p{
+    width: 350px;
+font-size: 14px;
+
+}
+.hero .hero-start{
+    gap: 10px;
+}
+.hero .hero-start h2{
+    font-weight: 700;
+font-size: 30px;
+line-height: 60px;
+width: 300px;
+
+
+}
+}
+@media screen and (max-width:800px) {
+    .hero .hero-end img{
+        width: 300px;
+    }
+    .hero .hero-start p{
+    width: 250px;
+font-size: 14px;
+
+}
+.hero .hero-start{
+    gap: 7px;
+}
+.hero .hero-start h2{
+    font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+width: 250px;
+
+
+}
+}
+@media screen and (max-width:670px) {
+    .hero .hero-start
+    {
+        width: 100%;
+        order: 1;
+        text-align: start;
+        
+    }
+    .hero .hero-end{
+        width: 100%;
+        
+        text-align: center;
+    }
+    .hero .hero-end img{
+        width: 250px;
+    }
+    .hero .hero-start span{
+    text-align: left;
+    width: 60px;
+}
+    }
+    
+    
+
 
 
 .services{
