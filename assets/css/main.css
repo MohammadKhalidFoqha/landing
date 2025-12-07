@@ -195,7 +195,41 @@ color: #dddddd;
 font-family: var(--mainfont);
 }
 
+@media screen and (max-width:1300px) {
+    /* .container {
+        width: calc(100% - 35px);
+    } */
+     .services .services-start,
+     .services .services-end{
+        width: 100%;
+        align-items: center;
+     }
+     .services .row{
+        gap: 20px;
+     } 
+}
+@media screen and (max-width:810px) {
+    .services .services-end .service{
+width: calc((100% - 55px) / 2);
+    }
 
+    
+}
+@media screen and (max-width:700px) {
+    .services .services-end .service{
+width: calc(100%);
+    }
+
+    
+}
+@media screen and (max-width:370px) {
+    .services .services-start p{
+        width: fit-content;
+    }
+    
+
+    
+}
 
 
 .selected-course {
