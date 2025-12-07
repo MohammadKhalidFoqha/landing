@@ -114,6 +114,90 @@ body {
     }
 }
 
+.services{
+    padding: 80px 0;
+}
+.services .services-start{
+
+    width: 30%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: flex-start;
+gap: 9px;
+}
+.services .services-start span{
+    color: var(--maincolor);
+}
+.services .services-start h2{
+    font-weight: 800;
+line-height: 40px;
+text-align: left;
+font-size: 30px;
+font-family: var(--mainfont);
+}
+.services .services-start p{
+
+width: 350px;
+
+font-weight: 400;
+text-align: left;
+color: #828282;
+font-family: var(--mainfont);
+
+}
+
+.services .services-end{
+display: flex;
+flex-wrap: wrap;
+
+align-items: center;
+justify-content: center;
+width: 70%;
+gap: 20px;
+align-items: flex-start;
+}
+.services .services-end .service{
+    width: calc((100% - 55px) / 3);
+    padding: 40px 10px;
+    background-color: var(--maincolor);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    color: white;
+    
+}
+.services .services-end .service img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px 0 2px 2px;
+    
+    
+    
+}
+
+
+.services .service h3{
+font-weight: 700;
+font-family: var(--secondfont);
+width: fit-content;
+
+}
+.services .service p{
+width: fit-content;
+font-weight: 400;
+text-align: left;
+color: #dddddd;
+font-family: var(--mainfont);
+}
+
+
+
+
 .selected-course {
     background-color: #3b44e9;
     padding: 30px 0;
